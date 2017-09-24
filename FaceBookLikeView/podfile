@@ -1,0 +1,4 @@
+target 'FaceBookLikeView' do
+  pod 'SDWebImage'
+  pod 'Masonry'
+end

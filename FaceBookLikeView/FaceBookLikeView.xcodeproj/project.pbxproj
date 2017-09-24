@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769D61DD1F77853A0088E18F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D61DC1F77853A0088E18F /* AppDelegate.m */; };
+		769D61E01F77853A0088E18F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D61DF1F77853A0088E18F /* ViewController.m */; };
+		769D61E31F77853A0088E18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769D61E11F77853A0088E18F /* Main.storyboard */; };
+		769D61E61F77853A0088E18F /* FaceBookLikeView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 769D61E41F77853A0088E18F /* FaceBookLikeView.xcdatamodeld */; };
+		769D61E81F77853A0088E18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769D61E71F77853A0088E18F /* Assets.xcassets */; };
+		769D61EB1F77853A0088E18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769D61E91F77853A0088E18F /* LaunchScreen.storyboard */; };
+		769D61EE1F77853A0088E18F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D61ED1F77853A0088E18F /* main.m */; };
+		769D61F81F77853A0088E18F /* FaceBookLikeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D61F71F77853A0088E18F /* FaceBookLikeViewTests.m */; };
+		769D62031F77853A0088E18F /* FaceBookLikeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D62021F77853A0088E18F /* FaceBookLikeViewUITests.m */; };
+		769D621B1F7792970088E18F /* FaceBookLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D621A1F7792970088E18F /* FaceBookLikeView.m */; };
+		769D621C1F77BAC90088E18F /* Emoji0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 769D62141F7785540088E18F /* Emoji0.gif */; };
+		769D621D1F77BAC90088E18F /* Emoji1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 769D62131F7785540088E18F /* Emoji1.gif */; };
+		769D621E1F77BAC90088E18F /* Emoji2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 769D62111F7785540088E18F /* Emoji2.gif */; };
+		769D621F1F77BAC90088E18F /* Emoji3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 769D62121F7785540088E18F /* Emoji3.gif */; };
+		769D62201F77BAC90088E18F /* Emoji4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 769D62101F7785540088E18F /* Emoji4.gif */; };
+		769D62211F77BAC90088E18F /* Emoji5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 769D62151F7785550088E18F /* Emoji5.gif */; };
+		769D62241F77BDEB0088E18F /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 769D62231F77BDEB0088E18F /* UIImage+animatedGIF.m */; };
+		B3B452D3C2AE1B9695C5E3AB /* libPods-FaceBookLikeView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6B73053B00ED3503DEAC7C /* libPods-FaceBookLikeView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		769D61F41F77853A0088E18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769D61D01F77853A0088E18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769D61D71F77853A0088E18F;
+			remoteInfo = FaceBookLikeView;
+		};
+		769D61FF1F77853A0088E18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769D61D01F77853A0088E18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769D61D71F77853A0088E18F;
+			remoteInfo = FaceBookLikeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E6B73053B00ED3503DEAC7C /* libPods-FaceBookLikeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceBookLikeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E5A83062C4AECD3B410E3B /* Pods-FaceBookLikeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookLikeView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookLikeView/Pods-FaceBookLikeView.debug.xcconfig"; sourceTree = "<group>"; };
+		769D61D81F77853A0088E18F /* FaceBookLikeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookLikeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		769D61DB1F77853A0088E18F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		769D61DC1F77853A0088E18F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		769D61DE1F77853A0088E18F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		769D61DF1F77853A0088E18F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		769D61E21F77853A0088E18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		769D61E51F77853A0088E18F /* FaceBookLikeView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceBookLikeView.xcdatamodel; sourceTree = "<group>"; };
+		769D61E71F77853A0088E18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769D61EA1F77853A0088E18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		769D61EC1F77853A0088E18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769D61ED1F77853A0088E18F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		769D61F31F77853A0088E18F /* FaceBookLikeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookLikeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769D61F71F77853A0088E18F /* FaceBookLikeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookLikeViewTests.m; sourceTree = "<group>"; };
+		769D61F91F77853A0088E18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769D61FE1F77853A0088E18F /* FaceBookLikeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookLikeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769D62021F77853A0088E18F /* FaceBookLikeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookLikeViewUITests.m; sourceTree = "<group>"; };
+		769D62041F77853A0088E18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769D62101F7785540088E18F /* Emoji4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Emoji4.gif; sourceTree = "<group>"; };
+		769D62111F7785540088E18F /* Emoji2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Emoji2.gif; sourceTree = "<group>"; };
+		769D62121F7785540088E18F /* Emoji3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Emoji3.gif; sourceTree = "<group>"; };
+		769D62131F7785540088E18F /* Emoji1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Emoji1.gif; sourceTree = "<group>"; };
+		769D62141F7785540088E18F /* Emoji0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Emoji0.gif; sourceTree = "<group>"; };
+		769D62151F7785550088E18F /* Emoji5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Emoji5.gif; sourceTree = "<group>"; };
+		769D62191F7792970088E18F /* FaceBookLikeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceBookLikeView.h; sourceTree = "<group>"; };
+		769D621A1F7792970088E18F /* FaceBookLikeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookLikeView.m; sourceTree = "<group>"; };
+		769D62221F77BDEB0088E18F /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		769D62231F77BDEB0088E18F /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		911B16CC45B6E0234AAAEB97 /* Pods-FaceBookLikeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookLikeView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookLikeView/Pods-FaceBookLikeView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769D61D51F77853A0088E18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B452D3C2AE1B9695C5E3AB /* libPods-FaceBookLikeView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D61F01F77853A0088E18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D61FB1F77853A0088E18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E6E728E2E130BDC5D0A602C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B73053B00ED3503DEAC7C /* libPods-FaceBookLikeView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		769D61CF1F77853A0088E18F = {
+			isa = PBXGroup;
+			children = (
+				769D61DA1F77853A0088E18F /* FaceBookLikeView */,
+				769D61F61F77853A0088E18F /* FaceBookLikeViewTests */,
+				769D62011F77853A0088E18F /* FaceBookLikeViewUITests */,
+				769D61D91F77853A0088E18F /* Products */,
+				BE3E9CB548A8ADD2DF6001F2 /* Pods */,
+				6E6E728E2E130BDC5D0A602C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		769D61D91F77853A0088E18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769D61D81F77853A0088E18F /* FaceBookLikeView.app */,
+				769D61F31F77853A0088E18F /* FaceBookLikeViewTests.xctest */,
+				769D61FE1F77853A0088E18F /* FaceBookLikeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		769D61DA1F77853A0088E18F /* FaceBookLikeView */ = {
+			isa = PBXGroup;
+			children = (
+				769D61DB1F77853A0088E18F /* AppDelegate.h */,
+				769D61DC1F77853A0088E18F /* AppDelegate.m */,
+				769D61DE1F77853A0088E18F /* ViewController.h */,
+				769D61DF1F77853A0088E18F /* ViewController.m */,
+				769D62191F7792970088E18F /* FaceBookLikeView.h */,
+				769D621A1F7792970088E18F /* FaceBookLikeView.m */,
+				769D62221F77BDEB0088E18F /* UIImage+animatedGIF.h */,
+				769D62231F77BDEB0088E18F /* UIImage+animatedGIF.m */,
+				769D61E11F77853A0088E18F /* Main.storyboard */,
+				769D61E71F77853A0088E18F /* Assets.xcassets */,
+				769D61E91F77853A0088E18F /* LaunchScreen.storyboard */,
+				769D61EC1F77853A0088E18F /* Info.plist */,
+				769D61ED1F77853A0088E18F /* main.m */,
+				769D61E41F77853A0088E18F /* FaceBookLikeView.xcdatamodeld */,
+				769D62141F7785540088E18F /* Emoji0.gif */,
+				769D62131F7785540088E18F /* Emoji1.gif */,
+				769D62111F7785540088E18F /* Emoji2.gif */,
+				769D62121F7785540088E18F /* Emoji3.gif */,
+				769D62101F7785540088E18F /* Emoji4.gif */,
+				769D62151F7785550088E18F /* Emoji5.gif */,
+			);
+			path = FaceBookLikeView;
+			sourceTree = "<group>";
+		};
+		769D61F61F77853A0088E18F /* FaceBookLikeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				769D61F71F77853A0088E18F /* FaceBookLikeViewTests.m */,
+				769D61F91F77853A0088E18F /* Info.plist */,
+			);
+			path = FaceBookLikeViewTests;
+			sourceTree = "<group>";
+		};
+		769D62011F77853A0088E18F /* FaceBookLikeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				769D62021F77853A0088E18F /* FaceBookLikeViewUITests.m */,
+				769D62041F77853A0088E18F /* Info.plist */,
+			);
+			path = FaceBookLikeViewUITests;
+			sourceTree = "<group>";
+		};
+		BE3E9CB548A8ADD2DF6001F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E5A83062C4AECD3B410E3B /* Pods-FaceBookLikeView.debug.xcconfig */,
+				911B16CC45B6E0234AAAEB97 /* Pods-FaceBookLikeView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		769D61D71F77853A0088E18F /* FaceBookLikeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769D62071F77853A0088E18F /* Build configuration list for PBXNativeTarget "FaceBookLikeView" */;
+			buildPhases = (
+				A2C7D2745489188D178F8384 /* [CP] Check Pods Manifest.lock */,
+				769D61D41F77853A0088E18F /* Sources */,
+				769D61D51F77853A0088E18F /* Frameworks */,
+				769D61D61F77853A0088E18F /* Resources */,
+				A9EFE3F319C1F038E56822FD /* [CP] Embed Pods Frameworks */,
+				0C77301B5232034672249102 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookLikeView;
+			productName = FaceBookLikeView;
+			productReference = 769D61D81F77853A0088E18F /* FaceBookLikeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		769D61F21F77853A0088E18F /* FaceBookLikeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769D620A1F77853A0088E18F /* Build configuration list for PBXNativeTarget "FaceBookLikeViewTests" */;
+			buildPhases = (
+				769D61EF1F77853A0088E18F /* Sources */,
+				769D61F01F77853A0088E18F /* Frameworks */,
+				769D61F11F77853A0088E18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769D61F51F77853A0088E18F /* PBXTargetDependency */,
+			);
+			name = FaceBookLikeViewTests;
+			productName = FaceBookLikeViewTests;
+			productReference = 769D61F31F77853A0088E18F /* FaceBookLikeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		769D61FD1F77853A0088E18F /* FaceBookLikeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769D620D1F77853A0088E18F /* Build configuration list for PBXNativeTarget "FaceBookLikeViewUITests" */;
+			buildPhases = (
+				769D61FA1F77853A0088E18F /* Sources */,
+				769D61FB1F77853A0088E18F /* Frameworks */,
+				769D61FC1F77853A0088E18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769D62001F77853A0088E18F /* PBXTargetDependency */,
+			);
+			name = FaceBookLikeViewUITests;
+			productName = FaceBookLikeViewUITests;
+			productReference = 769D61FE1F77853A0088E18F /* FaceBookLikeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		769D61D01F77853A0088E18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = vege;
+				TargetAttributes = {
+					769D61D71F77853A0088E18F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					769D61F21F77853A0088E18F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 769D61D71F77853A0088E18F;
+					};
+					769D61FD1F77853A0088E18F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 769D61D71F77853A0088E18F;
+					};
+				};
+			};
+			buildConfigurationList = 769D61D31F77853A0088E18F /* Build configuration list for PBXProject "FaceBookLikeView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 769D61CF1F77853A0088E18F;
+			productRefGroup = 769D61D91F77853A0088E18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769D61D71F77853A0088E18F /* FaceBookLikeView */,
+				769D61F21F77853A0088E18F /* FaceBookLikeViewTests */,
+				769D61FD1F77853A0088E18F /* FaceBookLikeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		769D61D61F77853A0088E18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D621C1F77BAC90088E18F /* Emoji0.gif in Resources */,
+				769D621D1F77BAC90088E18F /* Emoji1.gif in Resources */,
+				769D621E1F77BAC90088E18F /* Emoji2.gif in Resources */,
+				769D621F1F77BAC90088E18F /* Emoji3.gif in Resources */,
+				769D62201F77BAC90088E18F /* Emoji4.gif in Resources */,
+				769D62211F77BAC90088E18F /* Emoji5.gif in Resources */,
+				769D61EB1F77853A0088E18F /* LaunchScreen.storyboard in Resources */,
+				769D61E81F77853A0088E18F /* Assets.xcassets in Resources */,
+				769D61E31F77853A0088E18F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D61F11F77853A0088E18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D61FC1F77853A0088E18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C77301B5232034672249102 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookLikeView/Pods-FaceBookLikeView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C7D2745489188D178F8384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9EFE3F319C1F038E56822FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookLikeView/Pods-FaceBookLikeView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769D61D41F77853A0088E18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D61E61F77853A0088E18F /* FaceBookLikeView.xcdatamodeld in Sources */,
+				769D62241F77BDEB0088E18F /* UIImage+animatedGIF.m in Sources */,
+				769D61E01F77853A0088E18F /* ViewController.m in Sources */,
+				769D61EE1F77853A0088E18F /* main.m in Sources */,
+				769D61DD1F77853A0088E18F /* AppDelegate.m in Sources */,
+				769D621B1F7792970088E18F /* FaceBookLikeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D61EF1F77853A0088E18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D61F81F77853A0088E18F /* FaceBookLikeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D61FA1F77853A0088E18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D62031F77853A0088E18F /* FaceBookLikeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		769D61F51F77853A0088E18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769D61D71F77853A0088E18F /* FaceBookLikeView */;
+			targetProxy = 769D61F41F77853A0088E18F /* PBXContainerItemProxy */;
+		};
+		769D62001F77853A0088E18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769D61D71F77853A0088E18F /* FaceBookLikeView */;
+			targetProxy = 769D61FF1F77853A0088E18F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		769D61E11F77853A0088E18F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769D61E21F77853A0088E18F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		769D61E91F77853A0088E18F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769D61EA1F77853A0088E18F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		769D62051F77853A0088E18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		769D62061F77853A0088E18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		769D62081F77853A0088E18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E5A83062C4AECD3B410E3B /* Pods-FaceBookLikeView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8N68X393;
+				INFOPLIST_FILE = FaceBookLikeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vege.FaceBookLikeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		769D62091F77853A0088E18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911B16CC45B6E0234AAAEB97 /* Pods-FaceBookLikeView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8N68X393;
+				INFOPLIST_FILE = FaceBookLikeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vege.FaceBookLikeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		769D620B1F77853A0088E18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8N68X393;
+				INFOPLIST_FILE = FaceBookLikeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vege.FaceBookLikeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookLikeView.app/FaceBookLikeView";
+			};
+			name = Debug;
+		};
+		769D620C1F77853A0088E18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8N68X393;
+				INFOPLIST_FILE = FaceBookLikeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vege.FaceBookLikeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookLikeView.app/FaceBookLikeView";
+			};
+			name = Release;
+		};
+		769D620E1F77853A0088E18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8N68X393;
+				INFOPLIST_FILE = FaceBookLikeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vege.FaceBookLikeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceBookLikeView;
+			};
+			name = Debug;
+		};
+		769D620F1F77853A0088E18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8N68X393;
+				INFOPLIST_FILE = FaceBookLikeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vege.FaceBookLikeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceBookLikeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769D61D31F77853A0088E18F /* Build configuration list for PBXProject "FaceBookLikeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D62051F77853A0088E18F /* Debug */,
+				769D62061F77853A0088E18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769D62071F77853A0088E18F /* Build configuration list for PBXNativeTarget "FaceBookLikeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D62081F77853A0088E18F /* Debug */,
+				769D62091F77853A0088E18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769D620A1F77853A0088E18F /* Build configuration list for PBXNativeTarget "FaceBookLikeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D620B1F77853A0088E18F /* Debug */,
+				769D620C1F77853A0088E18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769D620D1F77853A0088E18F /* Build configuration list for PBXNativeTarget "FaceBookLikeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D620E1F77853A0088E18F /* Debug */,
+				769D620F1F77853A0088E18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		769D61E41F77853A0088E18F /* FaceBookLikeView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				769D61E51F77853A0088E18F /* FaceBookLikeView.xcdatamodel */,
+			);
+			currentVersion = 769D61E51F77853A0088E18F /* FaceBookLikeView.xcdatamodel */;
+			path = FaceBookLikeView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 769D61D01F77853A0088E18F /* Project object */;
+}
